@@ -23,4 +23,4 @@ A lightweight C# console application that generates 2D procedural terrain maps u
 ### Running the Project
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/ProceduralTerrain2D.git](https://github.com/your-username/ProceduralTerrain2D.git)
+   git clone [https://github.com/Ethan-Walton/Procedural-Generation.git](https://github.com/Ethan-Walton/Procedural-Generation.git)
