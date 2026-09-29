@@ -4,15 +4,15 @@ A lightweight C# console application that generates 2D procedural terrain maps u
 
 ## Features ✨
 
-* **Randomized Generation**: Initializes a 2D data map filled with random values[cite: 1].
-* **Anchor Points**: Randomly distributes anchor points across the terrain to act as high-elevation peaks[cite: 1].
-* **Distance Mapping**: Computes point values based on their distance to the nearest anchor[cite: 1].
-* **Neighbor Smoothing**: Applies an iterative box blur / averaging filter to smooth out terrain contours[cite: 1].
-* **Visual Console Output**: Renders the final terrain map directly in the console using emojis (representing different elevation tiers like water, plains, mountains, etc.)[cite: 1].
+* **Randomized Generation**: Initializes a 2D data map filled with random values.
+* **Anchor Points**: Randomly distributes anchor points across the terrain to act as high-elevation peaks.
+* **Distance Mapping**: Computes point values based on their distance to the nearest anchor.
+* **Neighbor Smoothing**: Applies an iterative box blur / averaging filter to smooth out terrain contours.
+* **Visual Console Output**: Renders the final terrain map directly in the console using emojis (representing different elevation tiers like water, plains, mountains, etc.).
 
 ## Project Structure 📁
 
-* **`Map.cs`**: Contains the core `Map` class responsible for data map initialization, anchor placement, distance calculations, smoothing algorithms, and visual console printing[cite: 1].
+* **`Map.cs`**: Contains the core `Map` class responsible for data map initialization, anchor placement, distance calculations, smoothing algorithms, and visual console printing.
 * **`Program.cs`**: The main entry point that configures map dimensions, sets up anchors, runs the smoothing passes, and displays the raw data and visual maps[cite: 2].
 
 ## Getting Started 🚀
